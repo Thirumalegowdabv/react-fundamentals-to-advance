@@ -1,0 +1,57 @@
+/* Ensure full height */
+ body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+  padding: 20px;
+}
+
+/* Flex container for layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full screen height */
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list-item {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+.nav-logo {
+  width: 55px;
+}
+
+/* Main content grows to push footer down */
+main {
+  flex: 1;
+  padding: 20px 0;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: black;
+  color: aqua;
+  text-align: center;
+  padding: 10px;
+}
