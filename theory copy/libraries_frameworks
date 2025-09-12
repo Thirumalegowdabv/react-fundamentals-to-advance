@@ -1,0 +1,16 @@
+libraries 
+collection of reusable code 
+reduces need to write repetative/complex things from scratch 
+you control how/when its used . No/few boundaries 
+
+frameworks
+predetermined architecture -  you follow a specified pattern of development 
+ypu work within the boundaries set by the framework 
+
+
+why React?
+it's composable!
+can create easily reusable and interchangeable "pieces of the web" that can be combined in various ways to create complex systems.
+
+
+It's declarative!
